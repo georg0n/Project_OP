@@ -14,8 +14,18 @@
     float: left;
 }
 
-.shedule {
-    width: 50%;
+.schedule {
+    width: 60%;
+    background-color: antiquewhite;
+}
+
+.number_group {
+    width: 100%;
+}
+
+.string {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -43,4 +53,6 @@ nav a{
     text-decoration: none;
     line-height: 38px;
 }
+
+
 
