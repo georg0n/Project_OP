@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    max-width: 1920px;
+    max-width: 2560px;
     padding: 15px;
     margin: 0 auto;
 }
@@ -17,6 +17,7 @@
 .schedule {
     width: 60%;
     background-color: antiquewhite;
+    overflow: hidden;
 }
 
 .number_group {
@@ -24,8 +25,11 @@
 }
 
 .string {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    border: 1px double black;
+
 }
 
 
@@ -54,5 +58,9 @@ nav a{
     line-height: 38px;
 }
 
+
+.header {
+    background-color: #6ce3e3;
+}
 
 
