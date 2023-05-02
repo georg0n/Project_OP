@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    max-width: 1920px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.container div {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.logo {
+    float: left;
+}
+
+.shedule {
+    width: 50%;
+}
+
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    text-decoration: none;
+    line-height: 38px;
+}
+
