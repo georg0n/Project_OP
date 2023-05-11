@@ -23,7 +23,9 @@ def start():
     sheet = wb.active
     max_column = sheet.max_column
     arr = []
+    arr_prep = []
     group = title
+
     for i in range(2, max_column+1):
         search_group = sheet.cell(row=2, column=i).value
         numberOfColumn = i
@@ -32,10 +34,20 @@ def start():
 
         if (search_group == group):
             for j in range(4, 88):
+                prep = sheet.cell(row=j, column=i+1).value
                 arr.append(sheet.cell(row=j, column=i).value)
+                surname = sheet.cell(row=j, column=i+2).value
+                print(prep)
+                if prep != "":
+                    arr_prep.append(" || " + " (" + (prep) + ") " + " || " )
+                else:
+                    arr_prep.append("")
+
+                if surname != "":
+                    arr_sur.append()
 
 
-    return render_template('start.html', title=title, arr=arr)
+    return render_template('start.html', title=title, arr=arr, arr_prep=arr_prep)
 
 
 if __name__ == '__main__':
