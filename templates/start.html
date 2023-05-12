@@ -7,11 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <title>Start Page</title>
+    <title>Schedule</title>
 </head>
 <body>
 
-<div class="Week"></div>
+<div class="Week">
+
+</div>
 
 <div class="divTable">
 <div class="divTableBody">
@@ -20,20 +22,20 @@
 </div>
 <div class="divTableRow">
 <div class="divTableCell">
-                <div class="string1"><p class="Number_lesson">1. {{ arr[0] }}{{ arr_prep[0] }}{{ arr_surname[0] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[1] }}{{ arr_prep[1] }}{{ arr_surname[1] }}</p></div>
-                <div class="string1"><p class="Number_lesson">2. {{ arr[2] }}{{ arr_prep[2] }}{{ arr_surname[2] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[3] }}{{ arr_prep[3] }}{{ arr_surname[3] }}</p></div>
-                <div class="string1"><p class="Number_lesson">3. {{ arr[4] }}{{ arr_prep[4] }}{{ arr_surname[4] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[5] }}{{ arr_prep[5] }}{{ arr_surname[5] }}</p></div>
-                <div class="string1"><p class="Number_lesson">4. {{ arr[6] }}{{ arr_prep[6] }}{{ arr_surname[6] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[7] }}{{ arr_prep[7] }}{{ arr_surname[7] }}</p></div>
-                <div class="string1"><p class="Number_lesson">5. {{ arr[8] }}{{ arr_prep[8] }}{{ arr_surname[8] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[9] }}{{ arr_prep[9] }}{{ arr_surname[9] }}</p></div>
-                <div class="string1"><p class="Number_lesson">6. {{ arr[10] }}{{ arr_prep[10] }}{{ arr_surname[10] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[11] }}{{ arr_prep[11] }}{{ arr_surname[11] }}</p></div>
-                <div class="string1"><p class="Number_lesson">7. {{ arr[12] }}{{ arr_prep[12] }}{{ arr_surname[12] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[13] }}{{ arr_prep[13] }}{{ arr_surname[13] }}</p></div>
+                <div class="string1"><p class="Number_lesson">1. {{ arr[0] }}{{ arr_prep[0] }}{{ arr_surname[0] }}{{ arr_audit[0] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[1] }}{{ arr_prep[1] }}{{ arr_surname[1] }}{{ arr_audit[1] }}</p></div>
+                <div class="string1"><p class="Number_lesson">2. {{ arr[2] }}{{ arr_prep[2] }}{{ arr_surname[2] }}{{ arr_audit[2] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[3] }}{{ arr_prep[3] }}{{ arr_surname[3] }}{{ arr_audit[3] }}</p></div>
+                <div class="string1"><p class="Number_lesson">3. {{ arr[4] }}{{ arr_prep[4] }}{{ arr_surname[4] }}{{ arr_audit[4] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[5] }}{{ arr_prep[5] }}{{ arr_surname[5] }}{{ arr_audit[5] }}</p></div>
+                <div class="string1"><p class="Number_lesson">4. {{ arr[6] }}{{ arr_prep[6] }}{{ arr_surname[6] }}{{ arr_audit[6] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[7] }}{{ arr_prep[7] }}{{ arr_surname[7] }}{{ arr_audit[7] }}</p></div>
+                <div class="string1"><p class="Number_lesson">5. {{ arr[8] }}{{ arr_prep[8] }}{{ arr_surname[8] }}{{ arr_audit[8] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[9] }}{{ arr_prep[9] }}{{ arr_surname[9] }}{{ arr_audit[9] }}</p></div>
+                <div class="string1"><p class="Number_lesson">6. {{ arr[10] }}{{ arr_prep[10] }}{{ arr_surname[10] }}{{ arr_audit[10] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[11] }}{{ arr_prep[11] }}{{ arr_surname[11] }}{{ arr_audit[11] }}</p></div>
+                <div class="string1"><p class="Number_lesson">7. {{ arr[12] }}{{ arr_prep[12] }}{{ arr_surname[12] }}{{ arr_audit[12] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[13] }}{{ arr_prep[13] }}{{ arr_surname[13] }}{{ arr_audit[13] }}</p></div>
     </div>
 </div>
 <div class="divTableRow">
@@ -41,20 +43,20 @@
 </div>
 <div class="divTableRow">
 <div class="divTableCell">
-                <div class="string1"><p class="Number_lesson">1. {{ arr[14] }}{{ arr_prep[14] }}{{ arr_surname[14] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[15] }}{{ arr_prep[15] }}{{ arr_surname[15] }}</p></div>
-                <div class="string1"><p class="Number_lesson">2. {{ arr[16] }}{{ arr_prep[16] }}{{ arr_surname[16] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[17] }}{{ arr_prep[17] }}{{ arr_surname[17] }}</p></div>
-                <div class="string1"><p class="Number_lesson">3. {{ arr[18] }}{{ arr_prep[18] }}{{ arr_surname[18] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[19] }}{{ arr_prep[19] }}{{ arr_surname[19] }}</p></div>
-                <div class="string1"><p class="Number_lesson">4. {{ arr[20] }}{{ arr_prep[20] }}{{ arr_surname[20] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[21] }}{{ arr_prep[21] }}{{ arr_surname[21] }}</p></div>
-                <div class="string1"><p class="Number_lesson">5. {{ arr[22] }}{{ arr_prep[22] }}{{ arr_surname[22] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[23] }}{{ arr_prep[23] }}{{ arr_surname[23] }}</p></div>
-                <div class="string1"><p class="Number_lesson">6. {{ arr[24] }}{{ arr_prep[24] }}{{ arr_surname[24] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[25] }}{{ arr_prep[25] }}{{ arr_surname[25] }}</p></div>
-                <div class="string1"><p class="Number_lesson">7. {{ arr[26] }}{{ arr_prep[26] }}{{ arr_surname[26] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[27] }}{{ arr_prep[27] }}{{ arr_surname[27] }}</p></div>
+                <div class="string1"><p class="Number_lesson">1. {{ arr[14] }}{{ arr_prep[14] }}{{ arr_surname[14] }}{{ arr_audit[14] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[15] }}{{ arr_prep[15] }}{{ arr_surname[15] }}{{ arr_audit[15] }}</p></div>
+                <div class="string1"><p class="Number_lesson">2. {{ arr[16] }}{{ arr_prep[16] }}{{ arr_surname[16] }}{{ arr_audit[16] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[17] }}{{ arr_prep[17] }}{{ arr_surname[17] }}{{ arr_audit[17] }}</p></div>
+                <div class="string1"><p class="Number_lesson">3. {{ arr[18] }}{{ arr_prep[18] }}{{ arr_surname[18] }}{{ arr_audit[18] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[19] }}{{ arr_prep[19] }}{{ arr_surname[19] }}{{ arr_audit[19] }}</p></div>
+                <div class="string1"><p class="Number_lesson">4. {{ arr[20] }}{{ arr_prep[20] }}{{ arr_surname[20] }}{{ arr_audit[20] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[21] }}{{ arr_prep[21] }}{{ arr_surname[21] }}{{ arr_audit[21] }}</p></div>
+                <div class="string1"><p class="Number_lesson">5. {{ arr[22] }}{{ arr_prep[22] }}{{ arr_surname[22] }}{{ arr_audit[22] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[23] }}{{ arr_prep[23] }}{{ arr_surname[23] }}{{ arr_audit[23] }}</p></div>
+                <div class="string1"><p class="Number_lesson">6. {{ arr[24] }}{{ arr_prep[24] }}{{ arr_surname[24] }}{{ arr_audit[24] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[25] }}{{ arr_prep[25] }}{{ arr_surname[25] }}{{ arr_audit[25] }}</p></div>
+                <div class="string1"><p class="Number_lesson">7. {{ arr[26] }}{{ arr_prep[26] }}{{ arr_surname[26] }}{{ arr_audit[26] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[27] }}{{ arr_prep[27] }}{{ arr_surname[27] }}{{ arr_audit[27] }}</p></div>
 </div>
 </div>
 <div class="divTableRow">
@@ -62,20 +64,20 @@
 </div>
 <div class="divTableRow">
 <div class="divTableCell">
-                <div class="string1"><p class="Number_lesson">1. {{ arr[28] }}{{ arr_prep[28] }}{{ arr_surname[28] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[29] }}{{ arr_prep[29] }}{{ arr_surname[29] }}</p></div>
-                <div class="string1"><p class="Number_lesson">2. {{ arr[30] }}{{ arr_prep[30] }}{{ arr_surname[30] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[31] }}{{ arr_prep[31] }}{{ arr_surname[31] }}</p></div>
-                <div class="string1"><p class="Number_lesson">3. {{ arr[32] }}{{ arr_prep[32] }}{{ arr_surname[32] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[33] }}{{ arr_prep[33] }}{{ arr_surname[33] }}</p></div>
-                <div class="string1"><p class="Number_lesson">4. {{ arr[34] }}{{ arr_prep[34] }}{{ arr_surname[34] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[35] }}{{ arr_prep[35] }}{{ arr_surname[35] }}</p></div>
-                <div class="string1"><p class="Number_lesson">5. {{ arr[36] }}{{ arr_prep[36] }}{{ arr_surname[36] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[37] }}{{ arr_prep[37] }}{{ arr_surname[37] }}</p></div>
-                <div class="string1"><p class="Number_lesson">6. {{ arr[38] }}{{ arr_prep[38] }}{{ arr_surname[38] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[39] }}{{ arr_prep[39] }}{{ arr_surname[39] }}</p></div>
-                <div class="string1"><p class="Number_lesson">7. {{ arr[40] }}{{ arr_prep[40] }}{{ arr_surname[40] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[41] }}{{ arr_prep[41] }}{{ arr_surname[41] }}</p></div>
+                <div class="string1"><p class="Number_lesson">1. {{ arr[28] }}{{ arr_prep[28] }}{{ arr_surname[28] }}{{ arr_audit[28] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[29] }}{{ arr_prep[29] }}{{ arr_surname[29] }}{{ arr_audit[29] }}</p></div>
+                <div class="string1"><p class="Number_lesson">2. {{ arr[30] }}{{ arr_prep[30] }}{{ arr_surname[30] }}{{ arr_audit[30] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[31] }}{{ arr_prep[31] }}{{ arr_surname[31] }}{{ arr_audit[31] }}</p></div>
+                <div class="string1"><p class="Number_lesson">3. {{ arr[32] }}{{ arr_prep[32] }}{{ arr_surname[32] }}{{ arr_audit[32] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[33] }}{{ arr_prep[33] }}{{ arr_surname[33] }}{{ arr_audit[33] }}</p></div>
+                <div class="string1"><p class="Number_lesson">4. {{ arr[34] }}{{ arr_prep[34] }}{{ arr_surname[34] }}{{ arr_audit[34] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[35] }}{{ arr_prep[35] }}{{ arr_surname[35] }}{{ arr_audit[35] }}</p></div>
+                <div class="string1"><p class="Number_lesson">5. {{ arr[36] }}{{ arr_prep[36] }}{{ arr_surname[36] }}{{ arr_audit[36] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[37] }}{{ arr_prep[37] }}{{ arr_surname[37] }}{{ arr_audit[37] }}</p></div>
+                <div class="string1"><p class="Number_lesson">6. {{ arr[38] }}{{ arr_prep[38] }}{{ arr_surname[38] }}{{ arr_audit[38] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[39] }}{{ arr_prep[39] }}{{ arr_surname[39] }}{{ arr_audit[39] }}</p></div>
+                <div class="string1"><p class="Number_lesson">7. {{ arr[40] }}{{ arr_prep[40] }}{{ arr_surname[40] }}{{ arr_audit[40] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[41] }}{{ arr_prep[41] }}{{ arr_surname[41] }}{{ arr_audit[41] }}</p></div>
 </div>
 </div>
 <div class="divTableRow">
@@ -83,20 +85,20 @@
 </div>
 <div class="divTableRow">
 <div class="divTableCell">
-                <div class="string1"><p class="Number_lesson">1. {{ arr[42] }}{{ arr_prep[42] }}{{ arr_surname[42] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[43] }}{{ arr_prep[43] }}{{ arr_surname[43] }}</p></div>
-                <div class="string1"><p class="Number_lesson">2. {{ arr[44] }}{{ arr_prep[44] }}{{ arr_surname[44] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[45] }}{{ arr_prep[45] }}{{ arr_surname[45] }}</p></div>
-                <div class="string1"><p class="Number_lesson">3. {{ arr[46] }}{{ arr_prep[46] }}{{ arr_surname[46] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[47] }}{{ arr_prep[47] }}{{ arr_surname[47] }}</p></div>
-                <div class="string1"><p class="Number_lesson">4. {{ arr[48] }}{{ arr_prep[48] }}{{ arr_surname[48] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[49] }}{{ arr_prep[49] }}{{ arr_surname[49] }}</p></div>
-                <div class="string1"><p class="Number_lesson">5. {{ arr[50] }}{{ arr_prep[50] }}{{ arr_surname[50] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[51] }}{{ arr_prep[51] }}{{ arr_surname[51] }}</p></div>
-                <div class="string1"><p class="Number_lesson">6. {{ arr[52] }}{{ arr_prep[52] }}{{ arr_surname[52] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[53] }}{{ arr_prep[53] }}{{ arr_surname[53] }}</p></div>
-                <div class="string1"><p class="Number_lesson">7. {{ arr[54] }}{{ arr_prep[54] }}{{ arr_surname[54] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[55] }}{{ arr_prep[55] }}{{ arr_surname[55] }}</p></div>
+                <div class="string1"><p class="Number_lesson">1. {{ arr[42] }}{{ arr_prep[42] }}{{ arr_surname[42] }}{{ arr_audit[42] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[43] }}{{ arr_prep[43] }}{{ arr_surname[43] }}{{ arr_audit[43] }}</p></div>
+                <div class="string1"><p class="Number_lesson">2. {{ arr[44] }}{{ arr_prep[44] }}{{ arr_surname[44] }}{{ arr_audit[44] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[45] }}{{ arr_prep[45] }}{{ arr_surname[45] }}{{ arr_audit[45] }}</p></div>
+                <div class="string1"><p class="Number_lesson">3. {{ arr[46] }}{{ arr_prep[46] }}{{ arr_surname[46] }}{{ arr_audit[46] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[47] }}{{ arr_prep[47] }}{{ arr_surname[47] }}{{ arr_audit[47] }}</p></div>
+                <div class="string1"><p class="Number_lesson">4. {{ arr[48] }}{{ arr_prep[48] }}{{ arr_surname[48] }}{{ arr_audit[48] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[49] }}{{ arr_prep[49] }}{{ arr_surname[49] }}{{ arr_audit[49] }}</p></div>
+                <div class="string1"><p class="Number_lesson">5. {{ arr[50] }}{{ arr_prep[50] }}{{ arr_surname[50] }}{{ arr_audit[50] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[51] }}{{ arr_prep[51] }}{{ arr_surname[51] }}{{ arr_audit[51] }}</p></div>
+                <div class="string1"><p class="Number_lesson">6. {{ arr[52] }}{{ arr_prep[52] }}{{ arr_surname[52] }}{{ arr_audit[52] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[53] }}{{ arr_prep[53] }}{{ arr_surname[53] }}{{ arr_audit[53] }}</p></div>
+                <div class="string1"><p class="Number_lesson">7. {{ arr[54] }}{{ arr_prep[54] }}{{ arr_surname[54] }}{{ arr_audit[54] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[55] }}{{ arr_prep[55] }}{{ arr_surname[55] }}{{ arr_audit[55] }}</p></div>
 </div>
 </div>
 <div class="divTableRow">
@@ -104,20 +106,20 @@
 </div>
 <div class="divTableRow">
 <div class="divTableCell">
-                <div class="string1"><p class="Number_lesson">1. {{ arr[56] }}{{ arr_prep[56] }}{{ arr_surname[56] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[57] }}{{ arr_prep[57] }}{{ arr_surname[57] }}</p></div>
-                <div class="string1"><p class="Number_lesson">2. {{ arr[58] }}{{ arr_prep[58] }}{{ arr_surname[58] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[59] }}{{ arr_prep[59] }}{{ arr_surname[59] }}</p></div>
-                <div class="string1"><p class="Number_lesson">3. {{ arr[60] }}{{ arr_prep[60] }}{{ arr_surname[60] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[61] }}{{ arr_prep[61] }}{{ arr_surname[61] }}</p></div>
-                <div class="string1"><p class="Number_lesson">4. {{ arr[62] }}{{ arr_prep[62] }}{{ arr_surname[62] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[63] }}{{ arr_prep[63] }}{{ arr_surname[63] }}</p></div>
-                <div class="string1"><p class="Number_lesson">5. {{ arr[64] }}{{ arr_prep[64] }}{{ arr_surname[64] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[65] }}{{ arr_prep[65] }}{{ arr_surname[65] }}</p></div>
-                <div class="string1"><p class="Number_lesson">6. {{ arr[66] }}{{ arr_prep[66] }}{{ arr_surname[66] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[67] }}{{ arr_prep[67] }}{{ arr_surname[67] }}</p></div>
-                <div class="string1"><p class="Number_lesson">7. {{ arr[68] }}{{ arr_prep[68] }}{{ arr_surname[68] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[69] }}{{ arr_prep[69] }}{{ arr_surname[69] }}</p></div>
+                <div class="string1"><p class="Number_lesson">1. {{ arr[56] }}{{ arr_prep[56] }}{{ arr_surname[56] }}{{ arr_audit[56] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[57] }}{{ arr_prep[57] }}{{ arr_surname[57] }}{{ arr_audit[57] }}</p></div>
+                <div class="string1"><p class="Number_lesson">2. {{ arr[58] }}{{ arr_prep[58] }}{{ arr_surname[58] }}{{ arr_audit[58] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[59] }}{{ arr_prep[59] }}{{ arr_surname[59] }}{{ arr_audit[59] }}</p></div>
+                <div class="string1"><p class="Number_lesson">3. {{ arr[60] }}{{ arr_prep[60] }}{{ arr_surname[60] }}{{ arr_audit[60] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[61] }}{{ arr_prep[61] }}{{ arr_surname[61] }}{{ arr_audit[61] }}</p></div>
+                <div class="string1"><p class="Number_lesson">4. {{ arr[62] }}{{ arr_prep[62] }}{{ arr_surname[62] }}{{ arr_audit[62] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[63] }}{{ arr_prep[63] }}{{ arr_surname[63] }}{{ arr_audit[63] }}</p></div>
+                <div class="string1"><p class="Number_lesson">5. {{ arr[64] }}{{ arr_prep[64] }}{{ arr_surname[64] }}{{ arr_audit[64] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[65] }}{{ arr_prep[65] }}{{ arr_surname[65] }}{{ arr_audit[65] }}</p></div>
+                <div class="string1"><p class="Number_lesson">6. {{ arr[66] }}{{ arr_prep[66] }}{{ arr_surname[66] }}{{ arr_audit[66] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[67] }}{{ arr_prep[67] }}{{ arr_surname[67] }}{{ arr_audit[67] }}</p></div>
+                <div class="string1"><p class="Number_lesson">7. {{ arr[68] }}{{ arr_prep[68] }}{{ arr_surname[68] }}{{ arr_audit[68] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[69] }}{{ arr_prep[69] }}{{ arr_surname[69] }}{{ arr_audit[69] }}</p></div>
 </div>
 </div>
 <div class="divTableRow">
@@ -125,20 +127,20 @@
 </div>
 <div class="divTableRow">
 <div class="divTableCell">
-                <div class="string1"><p class="Number_lesson">1. {{ arr[70] }}{{ arr_prep[70] }}{{ arr_surname[70] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[71] }}{{ arr_prep[71] }}{{ arr_surname[71] }}</p></div>
-                <div class="string1"><p class="Number_lesson">2. {{ arr[72] }}{{ arr_prep[72] }}{{ arr_surname[72] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[73] }}{{ arr_prep[73] }}{{ arr_surname[73] }}</p></div>
-                <div class="string1"><p class="Number_lesson">3. {{ arr[74] }}{{ arr_prep[74] }}{{ arr_surname[74] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[75] }}{{ arr_prep[75] }}{{ arr_surname[75] }}</p></div>
-                <div class="string1"><p class="Number_lesson">4. {{ arr[76] }}{{ arr_prep[76] }}{{ arr_surname[76] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[77] }}{{ arr_prep[77] }}{{ arr_surname[77] }}</p></div>
-                <div class="string1"><p class="Number_lesson">5. {{ arr[78] }}{{ arr_prep[78] }}{{ arr_surname[78] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[79] }}{{ arr_prep[79] }}{{ arr_surname[79] }}</p></div>
-                <div class="string1"><p class="Number_lesson">6. {{ arr[80] }}{{ arr_prep[80] }}{{ arr_surname[80] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[81] }}{{ arr_prep[81] }}{{ arr_surname[81] }}</p></div>
-                <div class="string1"><p class="Number_lesson">7. {{ arr[82] }}{{ arr_prep[82] }}{{ arr_surname[82] }}</p></div>
-                <div class="string2"><p class="Number_lesson">{{ arr[83] }}{{ arr_prep[83] }}{{ arr_surname[83] }}</p></div>
+                <div class="string1"><p class="Number_lesson">1. {{ arr[70] }}{{ arr_prep[70] }}{{ arr_surname[70] }}{{ arr_audit[70] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[71] }}{{ arr_prep[71] }}{{ arr_surname[71] }}{{ arr_audit[71] }}</p></div>
+                <div class="string1"><p class="Number_lesson">2. {{ arr[72] }}{{ arr_prep[72] }}{{ arr_surname[72] }}{{ arr_audit[72] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[73] }}{{ arr_prep[73] }}{{ arr_surname[73] }}{{ arr_audit[73] }}</p></div>
+                <div class="string1"><p class="Number_lesson">3. {{ arr[74] }}{{ arr_prep[74] }}{{ arr_surname[74] }}{{ arr_audit[74] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[75] }}{{ arr_prep[75] }}{{ arr_surname[75] }}{{ arr_audit[75] }}</p></div>
+                <div class="string1"><p class="Number_lesson">4. {{ arr[76] }}{{ arr_prep[76] }}{{ arr_surname[76] }}{{ arr_audit[76] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[77] }}{{ arr_prep[77] }}{{ arr_surname[77] }}{{ arr_audit[77] }}</p></div>
+                <div class="string1"><p class="Number_lesson">5. {{ arr[78] }}{{ arr_prep[78] }}{{ arr_surname[78] }}{{ arr_audit[78] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[79] }}{{ arr_prep[79] }}{{ arr_surname[79] }}{{ arr_audit[79] }}</p></div>
+                <div class="string1"><p class="Number_lesson">6. {{ arr[80] }}{{ arr_prep[80] }}{{ arr_surname[80] }}{{ arr_audit[80] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[81] }}{{ arr_prep[81] }}{{ arr_surname[81] }}{{ arr_audit[81] }}</p></div>
+                <div class="string1"><p class="Number_lesson">7. {{ arr[82] }}{{ arr_prep[82] }}{{ arr_surname[82] }}{{ arr_audit[82] }}</p></div>
+                <div class="string2"><p class="Number_lesson">{{ arr[83] }}{{ arr_prep[83] }}{{ arr_surname[83] }}{{ arr_audit[83] }}</p></div>
 </div>
 </div>
 </div>

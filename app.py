@@ -81,6 +81,7 @@ def start():
     arr = []
     arr_prep = []
     arr_surname = []
+    arr_audit = []
     group = title
 
     for i in range(2, max_column+1):
@@ -94,6 +95,7 @@ def start():
                 prep = sheet.cell(row=j, column=i+1).value
                 arr.append(sheet.cell(row=j, column=i).value)
                 surname = sheet.cell(row=j, column=i+2).value
+                audit = sheet.cell(row=j, column=i+3).value
 
                 if prep != "":
                     arr_prep.append(" || " + " (" + (prep) + ") " + " || ")
@@ -105,7 +107,12 @@ def start():
                 else:
                     arr_surname.append("")
 
-    return render_template('start.html', title=title, arr=arr, arr_prep=arr_prep, arr_surname=arr_surname)
+                if audit != "":
+                    arr_audit.append("(" + (audit) + ")")
+                else:
+                    arr_audit.append("")
+
+    return render_template('start.html', title=title, arr=arr, arr_prep=arr_prep, arr_surname=arr_surname, arr_audit=arr_audit)
 
 
 if __name__ == '__main__':
