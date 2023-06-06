@@ -4,7 +4,7 @@ import os
 import urllib.request
 
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
 
 @app.route('/', methods=['GET', 'POST'])
